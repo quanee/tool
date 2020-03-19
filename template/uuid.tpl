@@ -6,6 +6,6 @@
     <link rel="stylesheet" href="../static/css/tool.css">
 </head>
 <body>
-    <div>{{ .uuid }}</div>
+    <div class="uuid">{{ .uuid }}</div>
 </body>
 </html>
