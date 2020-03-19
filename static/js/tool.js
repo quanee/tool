@@ -57,6 +57,7 @@ async function timer(countSec) {
 }
 
 function start() {
+    document.getElementById("body").style.background = "rgba(255, 100, 0, 1)";
     var hour = 0, minute = 0, second = 0;
     for (i = 0; i < document.getElementById("select_hour").getElementsByTagName("input").length; i++) {
         if (document.getElementById("select_hour").getElementsByTagName("input")[i].checked) {
