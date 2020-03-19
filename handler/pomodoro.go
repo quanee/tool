@@ -1,4 +1,4 @@
-package pomodoro
+package handler
 
 import (
 	"html/template"
@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-func Main(w http.ResponseWriter, r *http.Request) {
+func Pomodoro(w http.ResponseWriter, r *http.Request) {
 	tpl, err := template.ParseFiles("template/pomodoro.tpl")
 	if err != nil {
 		log.Print(err)
