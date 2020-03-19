@@ -124,3 +124,10 @@ input:checked + label:before {
     color: rgba(255, 255, 255, 1);
     font-size: 2em;
 }
+
+.uuid {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin-top: 5rem;
+}
